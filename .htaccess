@@ -1,3 +1,6 @@
+<Files ~ "^\.ht">
+deny from all
+</Files>
 # authenticate(Basic)
 AuthUserFile /ichika/.htpasswd
 AuthGroupFile /dev/null
